@@ -1,0 +1,28 @@
+:root {
+    --color-background: #f0f0f0;
+    --color-primary: #007bff;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+}
+
+.grid-item {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eee;
+}
